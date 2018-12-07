@@ -11,7 +11,7 @@ A Python 3.5, 64-bit environment that includes `soundDB` and `iyore`. Keeps `pan
 
 ## arcpy
 
-A Python 2.7 environment that includes `arcpy`. 
+A Python 2.7 environment that includes `arcpy`. <span style="color:blue">Note: may require further revisions for full compatability.</span>
 
 ## NightSkies
 
