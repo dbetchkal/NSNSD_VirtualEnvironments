@@ -7,12 +7,12 @@ A Python 2.7, 64-bit geoprocessing environment that includes `gdal` and `rasteri
 
 ## soundDB
 
-A Python 3.5, 64-bit environment that includes `soundDB` and `iyore`. Keeps `pandas=0.19`.
-
-## arcpy
-
-A Python 2.7 environment that includes `arcpy`. <span style="color:blue">Note: may require further revisions for full compatability.</span>
+A Python 3.5, 64-bit environment that includes `soundDB` and `iyore`. Keeps `pandas=0.19` to utilize `pandas.Panel4D` objects.
 
 ## NightSkies
 
---more to follow--
+A Python 2.7, 32-bit environment. *Note: this environment currently requires a separate install of 32-bit Anaconda, and can benefit from Windows batch files to toggle the path environment variable cleanly.* 
+
+## arcpy
+
+A Python 2.7, 64-bit environment that includes `arcpy`. *Note: may require further revisions for full compatability.*
