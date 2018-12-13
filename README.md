@@ -9,6 +9,13 @@ In order to successfully create these environments, you will need to [download t
 
 [More information on secure socket layer encryption.](https://github.com/dbetchkal/soundDB/blob/master/PREREQUISITES.md#sidebar-the-government-is-decrypting-your-secure-internet-connection)
 
+Once python has permissions to access the internet, you can create the virtual environment using the following command:
+
+```
+>conda env create -n EnvironmentNameHere -f "path to .yml file here"
+```
+
+
 -----
 
 ## The Virtual Environments
