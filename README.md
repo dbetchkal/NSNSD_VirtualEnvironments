@@ -4,7 +4,7 @@ A repository to implement versioning of Python virtual environments for specific
 In order to successfully create these environments, you will need to [download the DOI root certificate to your machine](https://drive.google.com/file/d/0B551gy_Kqih1Y202VlFubnJPcFU/view). Then, tell Anaconda where the certificate is located:
 
 ```
->conda config --set ssl_verify <pathToYourFile>.crt
+>conda config --set ssl_verify "path to DOI root certificate"
 ```
 
 [More information on secure socket layer encryption.](https://github.com/dbetchkal/soundDB/blob/master/PREREQUISITES.md#sidebar-the-government-is-decrypting-your-secure-internet-connection)
@@ -12,7 +12,7 @@ In order to successfully create these environments, you will need to [download t
 Once python has permissions to access the internet, you can create the virtual environment using the following command:
 
 ```
->conda env create -n EnvironmentNameHere -f "path to .yml file here"
+>conda env create -n EnvironmentNameHere -f "path to .yml file"
 ```
 
 
