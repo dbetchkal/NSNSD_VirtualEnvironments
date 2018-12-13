@@ -12,9 +12,18 @@ In order to successfully create these environments, you will need to [download t
 Once python has permissions to access the internet, you can create the virtual environment using the following command:
 
 ```
->conda env create -n EnvironmentNameHere -f "path to .yml file"
+>conda env create -n EnvironmentName -f "path to .yml file"
 ```
 
+Then, to use the environment, use the following command:
+
+```
+>activate EnvironmentName
+```
+When you see the environment name in parenthesis to the left of the prompt, you're ready to start work.
+```
+(EnvironmentName) >
+```
 
 -----
 
