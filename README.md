@@ -15,12 +15,12 @@ Once python has permissions to access the internet, you can create the virtual e
 >conda env create -n EnvironmentName -f "path to .yml file"
 ```
 
-Then, to use the environment, use the following command:
+Then, to use the environment:
 
 ```
 >activate EnvironmentName
 ```
-When you see the environment name in parenthesis to the left of the prompt, you're ready to start work.
+When you see the environment name in parenthesis to the left of the prompt, you're ready to start working!
 ```
 (EnvironmentName) >
 ```
